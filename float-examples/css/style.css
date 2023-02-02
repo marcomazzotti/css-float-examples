@@ -1,0 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* per far si che un div container contenga anche immagini e tutto quanto: clearfix::after e poi content, display: table, clear:both tutto sul genitore diretto */

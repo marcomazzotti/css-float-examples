@@ -1,0 +1,39 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.circle{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: aqua;
+  border-radius: 50%;
+}
+
+h1::before, 
+h1::after{
+  content: "\274c";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: aqua;
+  border-radius: 50%;
+  font-size: 0.6rem;
+  line-height: 30px;
+  text-align: center;
+}
+
+a:hover{
+  color: aqua;
+}
+
+a{
+  color: red;
+  font-size: 3rem;
+}
+
+
+
+/* :before e :after per inserire elementi prima e dopo un oggetto, importante inserire prima il contenuto, anche vuoto */

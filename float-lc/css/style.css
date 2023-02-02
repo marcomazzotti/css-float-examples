@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: darkblue;
+  color: white;
+}
+
+.container{
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto 2rem;
+}
+
+section{
+  margin-bottom: 2rem;
+}
+
+h1{
+  color: #e53170;
+  margin-bottom: 1em;
+}
+
+h2,
+h3,
+h4{
+  color: #ff6906;
+}
+
+img{
+  width: 200px;
+}
+
+.float-left{
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.float-right{
+  float: right;
+}
